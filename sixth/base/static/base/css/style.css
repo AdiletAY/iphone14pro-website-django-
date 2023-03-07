@@ -240,10 +240,33 @@ ul{
     display: none;
 }
 
+.color-scroll{
+    padding: 0 0 150px;
+}
+
 .color-info-scroll{
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+    text-align: center;
+}
+
+.color-info-scroll img{
+    margin: 0 0 20px;
+}
+
+.color-info-scroll h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 10px;
+}
+
+.color-info-scroll p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
 }
 
 .color-variant-scroll{

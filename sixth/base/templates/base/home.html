@@ -101,12 +101,12 @@
         </section>
 
 <!-- TODO: -->
-        <section class="color">
+        <section class="color-scroll">
             <div class="container">
                 <h2 class="title">ВЫБЕРИ СВОЙ ЦВЕТ</h2>
-                <ul class="color-info color-info-scroll">
+                <ul class="color-info-scroll">
                     {% for color in colors %}
-                    <li class="color-variant color-variant-scroll">
+                    <li class="color-variant-scroll">
                         {% if color.image %}
                             <img src="{{ color.image.url}}" alt="">
                         {%endif%}
