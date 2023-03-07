@@ -100,6 +100,25 @@
             </div>
         </section>
 
+<!-- TODO: -->
+        <section class="color">
+            <div class="container">
+                <h2 class="title">ВЫБЕРИ СВОЙ ЦВЕТ</h2>
+                <ul class="color-info color-info-scroll">
+                    {% for color in colors %}
+                    <li class="color-variant color-variant-scroll">
+                        {% if color.image %}
+                            <img src="{{ color.image.url}}" alt="">
+                        {%endif%}
+                        <h3>{{color.name}}</h3>
+                        <p>{{color.description}}</p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </section>
+<!-- TODO: -->
+
         <section class="contact">
             <div class="container">
                 <div class="contact-inner">

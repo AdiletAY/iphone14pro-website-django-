@@ -154,6 +154,7 @@ ul{
     margin: 0;
 }
 
+
 .contact-inner{
     display: flex;
     background-color: #574B63;
@@ -237,4 +238,15 @@ ul{
 
 .menu-btn{
     display: none;
+}
+
+.color-info-scroll{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.color-variant-scroll{
+    flex: 0 0 auto;
+    margin: 10px 30px;
 }
